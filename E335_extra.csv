@@ -1,0 +1,249 @@
+SampleID,Alphad3level,Alphalevel,Calcium_level,MK7_level
+0070_01C-M,0 VitD,0,1,0
+0070_02C-M,0 VitD,0,1,0
+0070_03C-M,0 VitD,0,1,0
+0070_04C-M,0 VitD,0,1,0
+0070_05C-M,0 VitD,0,1,0
+0070_06C-M,0 VitD,0,1,0
+0070_01F-M,0 VitD,0,1,0
+0070_02F-M,0 VitD,0,1,0
+0070_03F-M,0 VitD,0,1,0
+0070_04F-M,0 VitD,0,1,0
+0070_05F-M,0 VitD,0,1,0
+0070_06F-M,0 VitD,0,1,0
+0070_01I-M,0 VitD,0,1,0
+0070_02I-M,0 VitD,0,1,0
+0070_03I-M,0 VitD,0,1,0
+0070_04I-M,0 VitD,0,1,0
+0070_06I-M,0 VitD,0,1,0
+0071_01C-M,VitD,2,1,0
+0071_02C-M,VitD,2,1,0
+0071_03C-M,VitD,2,1,0
+0071_04C-M,VitD,2,1,0
+0071_05C-M,VitD,2,1,0
+0071_06C-M,VitD,2,1,0
+0071_01F-M,VitD,2,1,0
+0071_02F-M,VitD,2,1,0
+0071_03F-M,VitD,2,1,0
+0071_04F-M,VitD,2,1,0
+0071_05F-M,VitD,2,1,0
+0071_06F-M,VitD,2,1,0
+0071_01I-M,VitD,2,1,0
+0071_02I-M,VitD,2,1,0
+0071_03I-M,VitD,2,1,0
+0071_04I-M,VitD,2,1,0
+0071_05I-M,VitD,2,1,0
+0071_06I-M,VitD,2,1,0
+0072_01C-M,0 VitD,0,2,0
+0072_02C-M,0 VitD,0,2,0
+0072_03C-M,0 VitD,0,2,0
+0072_04C-M,0 VitD,0,2,0
+0072_05C-M,0 VitD,0,2,0
+0072_06C-M,0 VitD,0,2,0
+0072_01F-M,0 VitD,0,2,0
+0072_02F-M,0 VitD,0,2,0
+0072_03F-M,0 VitD,0,2,0
+0072_04F-M,0 VitD,0,2,0
+0072_06F-M,0 VitD,0,2,0
+0072_01I-M,0 VitD,0,2,0
+0072_02I-M,0 VitD,0,2,0
+0072_03I-M,0 VitD,0,2,0
+0072_04I-M,0 VitD,0,2,0
+0072_05I-M,0 VitD,0,2,0
+0072_06I-M,0 VitD,0,2,0
+0073_01C-M,VitD,2,2,0
+0073_02C-M,VitD,2,2,0
+0073_03C-M,VitD,2,2,0
+0073_04C-M,VitD,2,2,0
+0073_05C-M,VitD,2,2,0
+0073_06C-M,VitD,2,2,0
+0073_01F-M,VitD,2,2,0
+0073_02F-M,VitD,2,2,0
+0073_03F-M,VitD,2,2,0
+0073_04F-M,VitD,2,2,0
+0073_05F-M,VitD,2,2,0
+0073_06F-M,VitD,2,2,0
+0073_01I-M,VitD,2,2,0
+0073_02I-M,VitD,2,2,0
+0073_03I-M,VitD,2,2,0
+0073_04I-M,VitD,2,2,0
+0073_05I-M,VitD,2,2,0
+0073_06I-M,VitD,2,2,0
+0074_01C-M,0 VitD,0,3,0
+0074_02C-M,0 VitD,0,3,0
+0074_03C-M,0 VitD,0,3,0
+0074_04C-M,0 VitD,0,3,0
+0074_05C-M,0 VitD,0,3,0
+0074_06C-M,0 VitD,0,3,0
+0074_01F-M,0 VitD,0,3,0
+0074_02F-M,0 VitD,0,3,0
+0074_03F-M,0 VitD,0,3,0
+0074_04F-M,0 VitD,0,3,0
+0074_05F-M,0 VitD,0,3,0
+0074_06F-M,0 VitD,0,3,0
+0074_01I-M,0 VitD,0,3,0
+0074_02I-M,0 VitD,0,3,0
+0074_03I-M,0 VitD,0,3,0
+0074_04I-M,0 VitD,0,3,0
+0074_05I-M,0 VitD,0,3,0
+0074_06I-M,0 VitD,0,3,0
+0075_01C-M,VitD,2,3,0
+0075_02C-M,VitD,2,3,0
+0075_03C-M,VitD,2,3,0
+0075_04C-M,VitD,2,3,0
+0075_05C-M,VitD,2,3,0
+0075_06C-M,VitD,2,3,0
+0075_01F-M,VitD,2,3,0
+0075_02F-M,VitD,2,3,0
+0075_03F-M,VitD,2,3,0
+0075_04F-M,VitD,2,3,0
+0075_06F-M,VitD,2,3,0
+0075_01I-M,VitD,2,3,0
+0075_02I-M,VitD,2,3,0
+0075_03I-M,VitD,2,3,0
+0075_04I-M,VitD,2,3,0
+0075_05I-M,VitD,2,3,0
+0075_06I-M,VitD,2,3,0
+0076_01C-M,0 VitD,0,4,0
+0076_02C-M,0 VitD,0,4,0
+0076_03C-M,0 VitD,0,4,0
+0076_04C-M,0 VitD,0,4,0
+0076_05C-M,0 VitD,0,4,0
+0076_06C-M,0 VitD,0,4,0
+0076_01F-M,0 VitD,0,4,0
+0076_02F-M,0 VitD,0,4,0
+0076_03F-M,0 VitD,0,4,0
+0076_04F-M,0 VitD,0,4,0
+0076_05F-M,0 VitD,0,4,0
+0076_06F-M,0 VitD,0,4,0
+0076_01I-M,0 VitD,0,4,0
+0076_02I-M,0 VitD,0,4,0
+0076_03I-M,0 VitD,0,4,0
+0076_04I-M,0 VitD,0,4,0
+0076_05I-M,0 VitD,0,4,0
+0076_06I-M,0 VitD,0,4,0
+0077_01C-M,VitD,2,4,0
+0077_02C-M,VitD,2,4,0
+0077_03C-M,VitD,2,4,0
+0077_04C-M,VitD,2,4,0
+0077_05C-M,VitD,2,4,0
+0077_06C-M,VitD,2,4,0
+0077_01F-M,VitD,2,4,0
+0077_02F-M,VitD,2,4,0
+0077_03F-M,VitD,2,4,0
+0077_04F-M,VitD,2,4,0
+0077_05F-M,VitD,2,4,0
+0077_01I-M,VitD,2,4,0
+0077_02I-M,VitD,2,4,0
+0077_03I-M,VitD,2,4,0
+0077_04I-M,VitD,2,4,0
+0077_05I-M,VitD,2,4,0
+0077_06I-M,VitD,2,4,0
+0081_01C-M,otherexp,1,1,0
+0081_02C-M,otherexp,1,1,0
+0081_03C-M,otherexp,1,1,0
+0081_04C-M,otherexp,1,1,0
+0081_05C-M,otherexp,1,1,0
+0081_06C-M,otherexp,1,1,0
+0081_01F-M,otherexp,1,1,0
+0081_02F-M,otherexp,1,1,0
+0081_03F-M,otherexp,1,1,0
+0081_04F-M,otherexp,1,1,0
+0081_05F-M,otherexp,1,1,0
+0081_06F-M,otherexp,1,1,0
+0081_01I-M,otherexp,1,1,0
+0081_02I-M,otherexp,1,1,0
+0081_03I-M,otherexp,1,1,0
+0081_04I-M,otherexp,1,1,0
+0081_05I-M,otherexp,1,1,0
+0081_06I-M,otherexp,1,1,0
+0082_01C-M,otherexp,4,1,0
+0082_02C-M,otherexp,4,1,0
+0082_03C-M,otherexp,4,1,0
+0082_04C-M,otherexp,4,1,0
+0082_05C-M,otherexp,4,1,0
+0082_06C-M,otherexp,4,1,0
+0082_01F-M,otherexp,4,1,0
+0082_02F-M,otherexp,4,1,0
+0082_03F-M,otherexp,4,1,0
+0082_04F-M,otherexp,4,1,0
+0082_05F-M,otherexp,4,1,0
+0082_06F-M,otherexp,4,1,0
+0082_01I-M,otherexp,4,1,0
+0082_02I-M,otherexp,4,1,0
+0082_03I-M,otherexp,4,1,0
+0082_04I-M,otherexp,4,1,0
+0082_05I-M,otherexp,4,1,0
+0082_06I-M,otherexp,4,1,0
+0083_01C-M,otherexp,0,1,MK7
+0083_02C-M,otherexp,0,1,MK7
+0083_03C-M,otherexp,0,1,MK7
+0083_04C-M,otherexp,0,1,MK7
+0083_05C-M,otherexp,0,1,MK7
+0083_06C-M,otherexp,0,1,MK7
+0083_01F-M,otherexp,0,1,MK7
+0083_02F-M,otherexp,0,1,MK7
+0083_03F-M,otherexp,0,1,MK7
+0083_04F-M,otherexp,0,1,MK7
+0083_05F-M,otherexp,0,1,MK7
+0083_06F-M,otherexp,0,1,MK7
+0083_01I-M,otherexp,0,1,MK7
+0083_02I-M,otherexp,0,1,MK7
+0083_03I-M,otherexp,0,1,MK7
+0083_04I-M,otherexp,0,1,MK7
+0083_05I-M,otherexp,0,1,MK7
+0083_06I-M,otherexp,0,1,MK7
+0084_01C-M,otherexp,2,1,MK7
+0084_02C-M,otherexp,2,1,MK7
+0084_03C-M,otherexp,2,1,MK7
+0084_04C-M,otherexp,2,1,MK7
+0084_05C-M,otherexp,2,1,MK7
+0084_06C-M,otherexp,2,1,MK7
+0084_01F-M,otherexp,2,1,MK7
+0084_02F-M,otherexp,2,1,MK7
+0084_03F-M,otherexp,2,1,MK7
+0084_04F-M,otherexp,2,1,MK7
+0084_05F-M,otherexp,2,1,MK7
+0084_06F-M,otherexp,2,1,MK7
+0084_01I-M,otherexp,2,1,MK7
+0084_02I-M,otherexp,2,1,MK7
+0084_03I-M,otherexp,2,1,MK7
+0084_04I-M,otherexp,2,1,MK7
+0084_05I-M,otherexp,2,1,MK7
+0084_06I-M,otherexp,2,1,MK7
+0085_01C-M,otherexp,1,2,0
+0085_02C-M,otherexp,1,2,0
+0085_03C-M,otherexp,1,2,0
+0085_04C-M,otherexp,1,2,0
+0085_05C-M,otherexp,1,2,0
+0085_06C-M,otherexp,1,2,0
+0085_01F-M,otherexp,1,2,0
+0085_02F-M,otherexp,1,2,0
+0085_03F-M,otherexp,1,2,0
+0085_04F-M,otherexp,1,2,0
+0085_05F-M,otherexp,1,2,0
+0085_06F-M,otherexp,1,2,0
+0085_01I-M,otherexp,1,2,0
+0085_02I-M,otherexp,1,2,0
+0085_03I-M,otherexp,1,2,0
+0085_04I-M,otherexp,1,2,0
+0085_05I-M,otherexp,1,2,0
+0085_06I-M,otherexp,1,2,0
+0086_01C-M,otherexp,0,0,0
+0086_02C-M,otherexp,0,0,0
+0086_03C-M,otherexp,0,0,0
+0086_04C-M,otherexp,0,0,0
+0086_05C-M,otherexp,0,0,0
+0086_06C-M,otherexp,0,0,0
+0086_01F-M,otherexp,0,0,0
+0086_02F-M,otherexp,0,0,0
+0086_03F-M,otherexp,0,0,0
+0086_04F-M,otherexp,0,0,0
+0086_05F-M,otherexp,0,0,0
+0086_06F-M,otherexp,0,0,0
+0086_01I-M,otherexp,0,0,0
+0086_02I-M,otherexp,0,0,0
+0086_03I-M,otherexp,0,0,0
+0086_04I-M,otherexp,0,0,0
+0086_05I-M,otherexp,0,0,0
+0086_06I-M,otherexp,0,0,0
