@@ -1,6 +1,6 @@
 from sqlalchemy import create_engine, MetaData
 from sqlalchemy.orm import declarative_base
-from sqlalchemy import Column, VARCHAR, Float, BIGINT, Integer
+from sqlalchemy import Column, VARCHAR, Float, BIGINT, Integer, String
 
 
 
@@ -95,3 +95,32 @@ class FeatureCountExtendedView(Base):
     # No specific distribution or sort key is provided, so you might want to add them if necessary
     
   
+    
+class SampleMetadataExtendedView(Base):
+    __tablename__ = 'sample_metadata_view'
+    
+    sampleId = Column(VARCHAR)
+    sampleLocation = Column(String)
+    runId = Column(VARCHAR)
+    deltaCq_MUC2 = Column(Float)
+    deltaCq_IL1B = Column(Float)
+    deltaCq_IL10 = Column(Float)
+    plateCode = Column(VARCHAR)
+    fullSampleId = Column(VARCHAR,  primary_key=True)
+    kitId = Column(VARCHAR)
+    animalId = Column(VARCHAR)
+    alphaShannon = Column(Float)
+    alphaObserved = Column(Float)
+    researchNumber = Column(VARCHAR)
+    additiveScore = Column(VARCHAR)
+    overallArchitecture = Column(VARCHAR)
+    mucosalIntegrity = Column(Float)
+    lymphoidImmune = Column(VARCHAR)
+    inflammationSeverity = Column(VARCHAR)
+    microbialOrganisms = Column(Float)
+    kitId = Column(VARCHAR)
+    projectId = Column(VARCHAR)
+    age = Column(VARCHAR)
+    treatment = Column(VARCHAR)
+    treatmentNumber = Column(VARCHAR)
+    client = Column(VARCHAR)
