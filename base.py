@@ -1,5 +1,5 @@
 from sqlalchemy import create_engine, MetaData
-from sqlalchemy.orm import declarative_base
+from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy import Column, VARCHAR, Float, BIGINT, Integer, String
 
 
@@ -24,18 +24,7 @@ class Taxonomy(Base):
     __table_args__ = {'redshift_diststyle': 'KEY', 'redshift_distkey': 'otu', 'redshift_sortkey': 'otu'}
     
 
-  
-class OtuCount(Base):
-    __tablename__ = 'otucount'
-    
-    sampleId = Column(VARCHAR(12), primary_key=True)
-    uniquekey = Column(VARCHAR(480), nullable=False)
-    otu = Column(VARCHAR(80), nullable=False, index=True)  
-    value = Column(Float, nullable=False)
-    
-    __table_args__ = {'redshift_diststyle': 'KEY', 'redshift_distkey': 'otu', 'redshift_sortkey': 'otu'}
-    
-    
+
 class Microbiome(Base):
     __tablename__ = 'microbiome'
 
@@ -63,6 +52,36 @@ class Kit(Base):
 
     __table_args__ = {'redshift_diststyle': 'KEY', 'redshift_distkey': 'kitId', 'redshift_sortkey': 'kitId'}
     
+class SampleMetadataExtendedView(Base):
+    __tablename__ = 'sample_metadata_view'
+    
+    sampleId = Column(VARCHAR)
+    sampleLocation = Column(String)
+    runId = Column(VARCHAR)
+    deltaCq_MUC2 = Column(Float)
+    deltaCq_IL1B = Column(Float)
+    deltaCq_IL10 = Column(Float)
+    plateCode = Column(VARCHAR)
+    fullSampleId = Column(VARCHAR,  primary_key=True)
+    kitId = Column(VARCHAR)
+    animalId = Column(VARCHAR)
+    alphaShannon = Column(Float)
+    alphaObserved = Column(Float)
+    researchNumber = Column(VARCHAR)
+    additiveScore = Column(VARCHAR)
+    overallArchitecture = Column(VARCHAR)
+    mucosalIntegrity = Column(Float)
+    lymphoidImmune = Column(VARCHAR)
+    inflammationSeverity = Column(VARCHAR)
+    microbialOrganisms = Column(Float)
+    kitId = Column(VARCHAR)
+    projectId = Column(VARCHAR)
+    age = Column(VARCHAR)
+    treatment = Column(VARCHAR)
+    treatmentNumber = Column(VARCHAR)
+    client = Column(VARCHAR)
+    
+
 
 
 class FeatureCountExtendedView(Base):
@@ -93,34 +112,3 @@ class FeatureCountExtendedView(Base):
     kingdom = Column(VARCHAR)
 
     # No specific distribution or sort key is provided, so you might want to add them if necessary
-    
-  
-    
-class SampleMetadataExtendedView(Base):
-    __tablename__ = 'sample_metadata_view'
-    
-    sampleId = Column(VARCHAR)
-    sampleLocation = Column(String)
-    runId = Column(VARCHAR)
-    deltaCq_MUC2 = Column(Float)
-    deltaCq_IL1B = Column(Float)
-    deltaCq_IL10 = Column(Float)
-    plateCode = Column(VARCHAR)
-    fullSampleId = Column(VARCHAR,  primary_key=True)
-    kitId = Column(VARCHAR)
-    animalId = Column(VARCHAR)
-    alphaShannon = Column(Float)
-    alphaObserved = Column(Float)
-    researchNumber = Column(VARCHAR)
-    additiveScore = Column(VARCHAR)
-    overallArchitecture = Column(VARCHAR)
-    mucosalIntegrity = Column(Float)
-    lymphoidImmune = Column(VARCHAR)
-    inflammationSeverity = Column(VARCHAR)
-    microbialOrganisms = Column(Float)
-    kitId = Column(VARCHAR)
-    projectId = Column(VARCHAR)
-    age = Column(VARCHAR)
-    treatment = Column(VARCHAR)
-    treatmentNumber = Column(VARCHAR)
-    client = Column(VARCHAR)
